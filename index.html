@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="head">
+        <h1>WEATHER APP</h1>
+    </div>
+    <div class="find">
+        <div id="yourWeather">Your Weather</div>
+        <div id="searchWeather">Search Weather</div>
+
+    </div>
+    <div id="search">
+        <div><textarea name="searchBar" cols="80" id="searchBar" placeholder="Enter the name of the city"></textarea></div>
+        <button class="search-btn" id="searchBtn">Search</button>
+    </div>
+    <div id="location">
+        <img src="./assets/location.png" width="80" height="80" loading="lazy">
+        <h2>Grant Location Access</h2> 
+        <p>Allow Access To Get Weather Information</p>
+        <button data-grantAccess>Grant Access</button>
+    </div>
+    <div id="weather">
+        <p class="tmp"></p>
+        <p class="name"></p>
+    </div>
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
