@@ -1,4 +1,4 @@
-const API_KEY = "d1845658f92b31c64bd94f06f7188c9c";
+const API_KEY = "";
 document.getElementById('searchWeather').addEventListener('click',()=>{
     let loc=document.getElementById('location');
     loc.style.display="none";
